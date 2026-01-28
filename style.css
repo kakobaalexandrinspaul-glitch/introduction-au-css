@@ -1,3 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E0E0E0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
 
+.header {
+    padding: 20px;
+}
 
+.main-title {
+    margin: 0;
+    font-size: 2.5em;
+}
 
+.subtitle {
+    margin: 5px 0 20px 0;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.bio-figure {
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 30px 0;
+    margin: 0;
+}
+
+.bio-image {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.image-caption {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.timeline-title {
+    text-align: center;
+}
+
+.timeline {
+    list-style-type: disc;
+    padding-left: 150px;
+}
+
+.timeline li {
+    margin-bottom: 5px;
+}
+
+.quote {
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.quote-author {
+    text-align: right;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #ccc;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #0000EE;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
